@@ -27,15 +27,15 @@ Follow these steps to get the project up and running.
 
 1.  **Clone the Repository**:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/rolanb/imageClassifier.git
+    cd imageClassifier
     ```
 
 2.  **Set Up the Python Environment**:
     It is crucial to use a compatible Python version. If you use `pyenv`, you can set the local version for the project directory:
 
     ```bash
-    pyenv local 3.11.9  # Or your chosen Python version
+    pyenv local 3.11.9 
     ```
 
     Then, create and activate a virtual environment.
@@ -57,7 +57,7 @@ Follow these steps to get the project up and running.
     Execute the main script. The code will automatically download the CIFAR-10 dataset, train the model, and evaluate its performance.
 
     ```bash
-    python your_script_name.py
+    python image_classifier.py
     ```
 
 ---
